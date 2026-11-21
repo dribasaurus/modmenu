@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "nova",
+  "version": "${version}",
+  "name": "Nova ClickGUI",
+  "description": "A minimal client-side quality-of-life menu with customizable RGB accents.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.nova.client.NovaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
