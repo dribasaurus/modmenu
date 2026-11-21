@@ -1,5 +1,5 @@
 name: Build Mod
-
+id 'net.fabricmc.fabric-loom' version '1.16.2'
 on:
   push:
     branches: [main]
